@@ -1,3 +1,10 @@
+# Project Summary
+This project centers around the SymbolsUpdate class, which manages financial symbol data through a series of CSV files using a Python-based Jupyter notebook, answer.ipynb. The class comprises three primary functions:
+
+`load_new_data_from_file`: Loads and processes data from symbols_update_n.csv files.
+`save_new_data`: Appends processed data to database.csv.
+`get_data_from_database`: Retrieves the most recent updates for each symbol from database.csv.
+
 ## Function Details
 ### `load_new_data_from_file` : 
 #### Purpose:
